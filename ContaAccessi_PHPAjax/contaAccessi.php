@@ -1,5 +1,4 @@
 <html>
-
 <head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,20 +53,6 @@
   // se il file aperto correttamente si scrive nel file del contatore di accessi
   fwrite($idfile, $conta_accessi);
   fclose($idfile);                          // chiusura file
-
-  /*
-  for($i=1000;$i>=10; $i/=10) {
-    $n = floor($conta_accessi % $i / ($i/10));
-    //echo '<br>'.$c1 . ' - '.$i . ', ' . $i/10;
-    echo '<img src="'.$n.'.gif">';
-  }
-
-*/
-
-  //oppure (fino a 999)
-
-
-
 
 
   if ($conta_accessi < 10) {
